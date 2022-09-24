@@ -1,0 +1,26 @@
+.nav-upper,
+.nav-heading {
+	display: grid;
+}
+
+.nav-heading {
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+	height: 75px;
+}
+
+.span span {
+	display: block;
+	margin-top: 5px;
+	background-color: black;
+	border-radius: 15px;
+	height: 5px;
+	width: 35px;
+
+	transition: 0.4s;
+}
+
+.span {
+	background-color: transparent;
+	border: none;
+}
